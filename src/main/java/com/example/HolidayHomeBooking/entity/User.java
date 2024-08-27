@@ -18,10 +18,8 @@ public class User {
     @Column(name = "username")
     private String username;
 
-//    @Column(name = "username", unique = true)
-//    private String username;  // Added username field
 
-    @Column(name = "email", unique = true)
+    @Column(name = "email")
     private String email;
 
     @Column(name = "password")
@@ -30,7 +28,9 @@ public class User {
     @Column(name = "role")
     private String role; // Admin/User
 
-    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    //lazy= booking and feedback not loaded immediatly whne user is reteived.. on demand it will load
+    //cascade= any change to user will automatically reflect to booking and feedback
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.ALL) 
     private Set<Booking> bookings;
 
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY, cascade = CascadeType.ALL)

@@ -26,14 +26,23 @@ public class Booking {
     @Column(name = "check_out_date")
     private LocalDate checkOutDate;
 
-    @Column(name = "status")
-    private String status;
+    @Column(name = "num_adults")
+    private Integer numAdults;
+
+    @Column(name = "num_children")
+    private Integer numChildren;
+
+    @Column(name = "num_rooms")
+    private Integer numRooms;
+
+    @Column(name = "room_type")
+    private String roomType;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
+
     @ManyToOne
     @JoinColumn(name = "place_id")
     private Place place;
-
 }

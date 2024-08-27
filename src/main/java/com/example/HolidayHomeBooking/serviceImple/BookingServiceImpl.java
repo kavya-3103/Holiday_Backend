@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class BookingServiceImpl implements BookingService {
@@ -27,7 +26,6 @@ public class BookingServiceImpl implements BookingService {
     public Booking getBookingById(Long bookingId) {
         return bookingRepository.findById(bookingId).orElse(null); // Return null if not found
     }
-
 
     @Override
     public Booking saveBooking(Booking booking) {

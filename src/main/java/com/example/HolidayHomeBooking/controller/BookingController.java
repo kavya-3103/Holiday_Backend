@@ -1,26 +1,33 @@
 package com.example.HolidayHomeBooking.controller;
 
 import com.example.HolidayHomeBooking.entity.Booking;
+import com.example.HolidayHomeBooking.entity.Place;
+import com.example.HolidayHomeBooking.entity.User;
 import com.example.HolidayHomeBooking.service.BookingService;
+import com.example.HolidayHomeBooking.service.PlaceService;
+import com.example.HolidayHomeBooking.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
+import java.util.NoSuchElementException;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
-
 @RequestMapping("/bookings")
 public class BookingController {
 
     private final BookingService bookingService;
+    private final UserService userService;
+    private final PlaceService placeService;
 
     @Autowired
-    public BookingController(BookingService bookingService) {
+    public BookingController(BookingService bookingService, UserService userService, PlaceService placeService) {
         this.bookingService = bookingService;
+        this.userService = userService;
+        this.placeService = placeService;
     }
 
     @GetMapping
@@ -31,53 +38,63 @@ public class BookingController {
     @GetMapping("/{id}")
     public ResponseEntity<Booking> getBookingById(@PathVariable("id") Long bookingId) {
         Booking booking = bookingService.getBookingById(bookingId);
-        return booking != null ? ResponseEntity.ok(booking) : ResponseEntity.notFound().build();
+        if (booking == null) {
+            throw new NoSuchElementException("Booking not found with ID: " + bookingId);
+        }
+        return ResponseEntity.ok(booking);
     }
 
-//    @PostMapping
-//    public Booking createBooking(@RequestBody Booking booking) {
-//        return bookingService.saveBooking(booking);
-//    }
     @PostMapping
-    public ResponseEntity<Booking> createBooking(@RequestBody Booking booking) {
-        Booking createdBooking = bookingService.saveBooking(booking);
-        return ResponseEntity.status(HttpStatus.CREATED).body(createdBooking); // Return 201 Created
-    }
+    public ResponseEntity<Booking> createBooking(@RequestBody Booking bookingRequest) {
+        User user = userService.findById(bookingRequest.getUser().getUserId());
+        Place place = placeService.findById(bookingRequest.getPlace().getPlaceId());
 
+        if (user == null || place == null) {
+            throw new IllegalArgumentException("User or Place not found");
+        }
+
+        bookingRequest.setUser(user);
+        bookingRequest.setPlace(place);
+
+        Booking createdBooking = bookingService.saveBooking(bookingRequest);
+        return new ResponseEntity<>(createdBooking, HttpStatus.CREATED);
+    }
 
     @PutMapping("/{id}")
-    public ResponseEntity<String> updateBooking(@PathVariable("id") Long bookingId, @RequestBody Booking booking) {
+    public ResponseEntity<Booking> updateBooking(@PathVariable("id") Long bookingId, @RequestBody Booking booking) {
         Booking existingBooking = bookingService.getBookingById(bookingId);
-        if (existingBooking != null) {
-            booking.setBookingId(bookingId);
-
-            // Validate if User and Place are found
-            if (booking.getUser() == null || booking.getUser().getUserId() == null) {
-                return ResponseEntity.badRequest().body("User ID is missing or invalid");
-            }
-
-            if (booking.getPlace() == null || booking.getPlace().getPlaceId() == null) {
-                return ResponseEntity.badRequest().body("Place ID is missing or invalid");
-            }
-
-            // Save the updated booking
-            bookingService.saveBooking(booking);
-            return ResponseEntity.ok("Booking updated successfully");
-        } else {
-            return ResponseEntity.notFound().build();
+        if (existingBooking == null) {
+            throw new NoSuchElementException("Booking not found with ID: " + bookingId);
         }
-    }
 
+        booking.setBookingId(bookingId);
+
+        if (booking.getUser() == null || booking.getUser().getUserId() == null ||
+            booking.getPlace() == null || booking.getPlace().getPlaceId() == null) {
+            throw new IllegalArgumentException("Invalid User or Place ID");
+        }
+
+        User user = userService.findById(booking.getUser().getUserId());
+        Place place = placeService.findById(booking.getPlace().getPlaceId());
+
+        if (user == null || place == null) {
+            throw new IllegalArgumentException("User or Place not found");
+        }
+
+        booking.setUser(user);
+        booking.setPlace(place);
+
+        Booking updatedBooking = bookingService.saveBooking(booking);
+        return ResponseEntity.ok(updatedBooking);
+    }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteBooking(@PathVariable("id") Long bookingId) {
         Booking existingBooking = bookingService.getBookingById(bookingId);
-        if (existingBooking != null) {
-            bookingService.deleteBooking(bookingId);
-            return ResponseEntity.ok("Booking deleted successfully");
-        } else {
-            return ResponseEntity.notFound().build();
+        if (existingBooking == null) {
+            throw new NoSuchElementException("Booking not found with ID: " + bookingId);
         }
+        bookingService.deleteBooking(bookingId);
+        return ResponseEntity.ok("Booking deleted successfully");
     }
-
 }

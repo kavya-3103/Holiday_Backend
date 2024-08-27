@@ -38,12 +38,12 @@ public class UserServiceImpl implements UserService {
         userRepository.deleteById(userId);
     }
     @Override
-    public Optional<User> getUserByUsername(String username) {  // Changed from getUserByEmail to getUserByUsername
-        return userRepository.findByUsername(username);  // Changed from findByEmail to findByUsername
+    public Optional<User> getUserByUsername(String username) {  
+        return userRepository.findByUsername(username);  
     }
 
     @Override
-    public Optional<User> authenticateUser(String username, String password) {  // Changed from email to username
+    public Optional<User> authenticateUser(String username, String password) {  
         return userRepository.findByUsername(username)
             .filter(user -> user.getPassword().equals(password)); // In a real-world application, use password hashing
     }
