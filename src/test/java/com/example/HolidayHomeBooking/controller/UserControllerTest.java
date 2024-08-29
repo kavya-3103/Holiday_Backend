@@ -20,15 +20,15 @@ import static org.mockito.Mockito.*;
 
 public class UserControllerTest {
 
-    @Mock
+    @Mock //dummy implementation that you control during the test.
     private UserService userService;
 
-    @InjectMocks
+    @InjectMocks //Injects the mock dependencies into the userController, allowing you to test the controller in isolation.
     private UserController userController;
 
-    @BeforeEach
+    @BeforeEach // it runs before each test method. 
     void setUp() {
-        MockitoAnnotations.openMocks(this);
+        MockitoAnnotations.openMocks(this); //initializes mock
     }
 
     @Test
