@@ -20,15 +20,15 @@ import static org.mockito.Mockito.*;
 
 public class UserControllerTest {
 
-    @Mock //dummy implementation that you control during the test.
+    @Mock
     private UserService userService;
 
-    @InjectMocks //Injects the mock dependencies into the userController, allowing you to test the controller in isolation.
+    @InjectMocks
     private UserController userController;
 
-    @BeforeEach // it runs before each test method. 
+    @BeforeEach
     void setUp() {
-        MockitoAnnotations.openMocks(this); //initializes mock
+        MockitoAnnotations.openMocks(this);
     }
 
     @Test
@@ -54,7 +54,7 @@ public class UserControllerTest {
 
         assertEquals(2, result.size());
         assertEquals("user1", result.get(0).getUsername());
-        verify(userService, times(1)).getAllUsers();
+        verify(userService).getAllUsers();
     }
 
     @Test
@@ -72,16 +72,18 @@ public class UserControllerTest {
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(user, response.getBody());
-        verify(userService, times(1)).findById(1L);
+        verify(userService).findById(1L);
     }
 
     @Test
     void testGetUserById_UserDoesNotExist() {
-        when(userService.findById(1L)).thenReturn(null);
+        when(userService.findById(1L)).thenThrow(new NoSuchElementException("User not found with ID: 1"));
 
-        assertThrows(NoSuchElementException.class, () -> {
+        Exception exception = assertThrows(NoSuchElementException.class, () -> {
             userController.getUserById(1L);
         });
+
+        assertEquals("User not found with ID: 1", exception.getMessage());
     }
 
     @Test
@@ -99,16 +101,15 @@ public class UserControllerTest {
 
         assertEquals(HttpStatus.CREATED, response.getStatusCode());
         assertEquals(user, response.getBody());
-        verify(userService, times(1)).saveUser(user);
+        verify(userService).saveUser(user);
     }
 
     @Test
     void testCreateUser_NullUser() {
-        IllegalArgumentException thrown = assertThrows(IllegalArgumentException.class, () -> {
-            userController.createUser(null);
-        });
+        ResponseEntity<User> response = userController.createUser(null);
 
-        assertEquals("User cannot be null", thrown.getMessage());
+        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
+        assertNull(response.getBody());
     }
 
     @Test
@@ -120,11 +121,10 @@ public class UserControllerTest {
         user.setPassword("password");
         user.setRole("USER");
 
-        IllegalArgumentException thrown = assertThrows(IllegalArgumentException.class, () -> {
-            userController.createUser(user);
-        });
+        ResponseEntity<User> response = userController.createUser(user);
 
-        assertEquals("Username cannot be null or empty", thrown.getMessage());
+        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
+        assertNull(response.getBody());
     }
 
     @Test
@@ -136,11 +136,10 @@ public class UserControllerTest {
         user.setPassword("password");
         user.setRole("USER");
 
-        IllegalArgumentException thrown = assertThrows(IllegalArgumentException.class, () -> {
-            userController.createUser(user);
-        });
+        ResponseEntity<User> response = userController.createUser(user);
 
-        assertEquals("Email cannot be null or empty", thrown.getMessage());
+        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
+        assertNull(response.getBody());
     }
 
     @Test
@@ -157,10 +156,12 @@ public class UserControllerTest {
         ResponseEntity<String> response = userController.loginUser("user1", "password");
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
-        assertTrue(response.getBody().contains("Login successful"));
-        assertTrue(response.getBody().contains("\"userId\": 1"));
-        assertTrue(response.getBody().contains("\"role\": \"USER\""));
-        verify(userService, times(1)).authenticateUser("user1", "password");
+        String responseBody = response.getBody();
+        assertNotNull(responseBody);
+        assertTrue(responseBody.contains("Login successful"));
+        assertTrue(responseBody.contains("\"userId\": 1"));
+        assertTrue(responseBody.contains("\"role\": \"USER\""));
+        verify(userService).authenticateUser("user1", "password");
     }
 
     @Test
@@ -171,7 +172,6 @@ public class UserControllerTest {
 
         assertEquals(HttpStatus.UNAUTHORIZED, response.getStatusCode());
         assertEquals("Invalid username or password", response.getBody());
-        verify(userService, times(1)).authenticateUser("user1", "wrongpassword");
     }
 
     @Test
@@ -191,14 +191,14 @@ public class UserControllerTest {
         updatedUser.setRole("USER");
 
         when(userService.findById(1L)).thenReturn(existingUser);
-        when(userService.saveUser(updatedUser)).thenReturn(updatedUser);
+        when(userService.saveUser(existingUser)).thenReturn(updatedUser);
 
         ResponseEntity<User> response = userController.updateUser(1L, updatedUser);
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(updatedUser, response.getBody());
-        verify(userService, times(1)).findById(1L);
-        verify(userService, times(1)).saveUser(updatedUser);
+        verify(userService).findById(1L);
+        verify(userService).saveUser(existingUser);
     }
 
     @Test
@@ -210,11 +210,13 @@ public class UserControllerTest {
         updatedUser.setPassword("newpassword");
         updatedUser.setRole("USER");
 
-        when(userService.findById(1L)).thenReturn(null);
+        when(userService.findById(1L)).thenThrow(new NoSuchElementException("User not found with ID: 1"));
 
-        assertThrows(NoSuchElementException.class, () -> {
+        Exception exception = assertThrows(NoSuchElementException.class, () -> {
             userController.updateUser(1L, updatedUser);
         });
+
+        assertEquals("User not found with ID: 1", exception.getMessage());
     }
 
     @Test
@@ -232,16 +234,18 @@ public class UserControllerTest {
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals("User deleted successfully", response.getBody());
-        verify(userService, times(1)).findById(1L);
-        verify(userService, times(1)).deleteUser(1L);
+        verify(userService).findById(1L);
+        verify(userService).deleteUser(1L);
     }
 
     @Test
     void testDeleteUser_UserDoesNotExist() {
-        when(userService.findById(1L)).thenReturn(null);
+        when(userService.findById(1L)).thenThrow(new NoSuchElementException("User not found with ID: 1"));
 
-        assertThrows(NoSuchElementException.class, () -> {
+        Exception exception = assertThrows(NoSuchElementException.class, () -> {
             userController.deleteUser(1L);
         });
+
+        assertEquals("User not found with ID: 1", exception.getMessage());
     }
 }

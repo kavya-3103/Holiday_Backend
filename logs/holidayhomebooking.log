@@ -1,0 +1,578 @@
+2024-09-05 01:15:34 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h29s428ms34µs101ns).
+2024-09-05 09:41:22 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h25m52s669ms614µs800ns).
+2024-09-05 09:59:29 TRACE [http-nio-8080-exec-5] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: Kavya
+2024-09-05 09:59:29 DEBUG [http-nio-8080-exec-5] c.e.H.controller.UserController - DEBUG: Attempting login with username: Kavya
+2024-09-05 09:59:29 INFO  [http-nio-8080-exec-5] c.e.H.controller.UserController - INFO: Received login request for username: Kavya
+2024-09-05 09:59:29 INFO  [http-nio-8080-exec-5] c.e.H.controller.UserController - INFO: Login successful for username: Kavya
+2024-09-05 09:59:29 TRACE [http-nio-8080-exec-5] c.e.H.controller.UserController - TRACE: Exiting loginUser method
+2024-09-05 09:59:36 TRACE [http-nio-8080-exec-6] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 09:59:36 DEBUG [http-nio-8080-exec-6] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 09:59:36 INFO  [http-nio-8080-exec-6] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 09:59:37 TRACE [http-nio-8080-exec-6] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 5 feedbacks
+2024-09-05 09:59:37 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 09:59:37 DEBUG [http-nio-8080-exec-2] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 09:59:37 INFO  [http-nio-8080-exec-2] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 09:59:37 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 09:59:37 TRACE [http-nio-8080-exec-10] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 09:59:37 DEBUG [http-nio-8080-exec-10] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 09:59:37 INFO  [http-nio-8080-exec-10] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 09:59:37 TRACE [http-nio-8080-exec-10] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 5 feedbacks
+2024-09-05 09:59:37 TRACE [http-nio-8080-exec-3] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 09:59:37 DEBUG [http-nio-8080-exec-3] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 09:59:37 INFO  [http-nio-8080-exec-3] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 09:59:37 TRACE [http-nio-8080-exec-3] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:06:09 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:06:09 DEBUG [http-nio-8080-exec-8] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:06:09 TRACE [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 10:06:09 INFO  [http-nio-8080-exec-8] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:06:09 DEBUG [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 10:06:09 INFO  [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 10:06:09 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:06:09 TRACE [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 5 feedbacks
+2024-09-05 10:06:09 TRACE [http-nio-8080-exec-5] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 10:06:09 DEBUG [http-nio-8080-exec-5] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 10:06:09 INFO  [http-nio-8080-exec-5] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 10:06:09 TRACE [http-nio-8080-exec-6] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:06:09 DEBUG [http-nio-8080-exec-6] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:06:09 INFO  [http-nio-8080-exec-6] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:06:09 TRACE [http-nio-8080-exec-5] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 5 feedbacks
+2024-09-05 10:06:09 TRACE [http-nio-8080-exec-6] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:08:51 TRACE [http-nio-8080-exec-1] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: kavya
+2024-09-05 10:08:51 DEBUG [http-nio-8080-exec-1] c.e.H.controller.UserController - DEBUG: Attempting login with username: kavya
+2024-09-05 10:08:51 INFO  [http-nio-8080-exec-1] c.e.H.controller.UserController - INFO: Received login request for username: kavya
+2024-09-05 10:08:51 WARN  [http-nio-8080-exec-1] c.e.H.controller.UserController - WARN: Invalid login attempt for username: kavya
+2024-09-05 10:08:51 TRACE [http-nio-8080-exec-1] c.e.H.controller.UserController - TRACE: Exiting loginUser method with failure
+2024-09-05 10:08:55 TRACE [http-nio-8080-exec-4] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: kavya
+2024-09-05 10:08:55 DEBUG [http-nio-8080-exec-4] c.e.H.controller.UserController - DEBUG: Attempting login with username: kavya
+2024-09-05 10:08:55 INFO  [http-nio-8080-exec-4] c.e.H.controller.UserController - INFO: Received login request for username: kavya
+2024-09-05 10:08:55 WARN  [http-nio-8080-exec-4] c.e.H.controller.UserController - WARN: Invalid login attempt for username: kavya
+2024-09-05 10:08:55 TRACE [http-nio-8080-exec-4] c.e.H.controller.UserController - TRACE: Exiting loginUser method with failure
+2024-09-05 10:09:01 TRACE [http-nio-8080-exec-7] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: kavya
+2024-09-05 10:09:01 DEBUG [http-nio-8080-exec-7] c.e.H.controller.UserController - DEBUG: Attempting login with username: kavya
+2024-09-05 10:09:01 INFO  [http-nio-8080-exec-7] c.e.H.controller.UserController - INFO: Received login request for username: kavya
+2024-09-05 10:09:01 WARN  [http-nio-8080-exec-7] c.e.H.controller.UserController - WARN: Invalid login attempt for username: kavya
+2024-09-05 10:09:01 TRACE [http-nio-8080-exec-7] c.e.H.controller.UserController - TRACE: Exiting loginUser method with failure
+2024-09-05 10:09:02 TRACE [http-nio-8080-exec-9] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: kavya
+2024-09-05 10:09:02 DEBUG [http-nio-8080-exec-9] c.e.H.controller.UserController - DEBUG: Attempting login with username: kavya
+2024-09-05 10:09:02 INFO  [http-nio-8080-exec-9] c.e.H.controller.UserController - INFO: Received login request for username: kavya
+2024-09-05 10:09:02 WARN  [http-nio-8080-exec-9] c.e.H.controller.UserController - WARN: Invalid login attempt for username: kavya
+2024-09-05 10:09:02 TRACE [http-nio-8080-exec-9] c.e.H.controller.UserController - TRACE: Exiting loginUser method with failure
+2024-09-05 10:09:03 TRACE [http-nio-8080-exec-8] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: kavya
+2024-09-05 10:09:03 DEBUG [http-nio-8080-exec-8] c.e.H.controller.UserController - DEBUG: Attempting login with username: kavya
+2024-09-05 10:09:03 INFO  [http-nio-8080-exec-8] c.e.H.controller.UserController - INFO: Received login request for username: kavya
+2024-09-05 10:09:03 WARN  [http-nio-8080-exec-8] c.e.H.controller.UserController - WARN: Invalid login attempt for username: kavya
+2024-09-05 10:09:03 TRACE [http-nio-8080-exec-8] c.e.H.controller.UserController - TRACE: Exiting loginUser method with failure
+2024-09-05 10:09:04 TRACE [http-nio-8080-exec-5] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: kavya
+2024-09-05 10:09:04 DEBUG [http-nio-8080-exec-5] c.e.H.controller.UserController - DEBUG: Attempting login with username: kavya
+2024-09-05 10:09:04 INFO  [http-nio-8080-exec-5] c.e.H.controller.UserController - INFO: Received login request for username: kavya
+2024-09-05 10:09:04 WARN  [http-nio-8080-exec-5] c.e.H.controller.UserController - WARN: Invalid login attempt for username: kavya
+2024-09-05 10:09:04 TRACE [http-nio-8080-exec-5] c.e.H.controller.UserController - TRACE: Exiting loginUser method with failure
+2024-09-05 10:09:05 TRACE [http-nio-8080-exec-6] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: kavya
+2024-09-05 10:09:05 DEBUG [http-nio-8080-exec-6] c.e.H.controller.UserController - DEBUG: Attempting login with username: kavya
+2024-09-05 10:09:05 INFO  [http-nio-8080-exec-6] c.e.H.controller.UserController - INFO: Received login request for username: kavya
+2024-09-05 10:09:05 WARN  [http-nio-8080-exec-6] c.e.H.controller.UserController - WARN: Invalid login attempt for username: kavya
+2024-09-05 10:09:05 TRACE [http-nio-8080-exec-6] c.e.H.controller.UserController - TRACE: Exiting loginUser method with failure
+2024-09-05 10:09:05 TRACE [http-nio-8080-exec-3] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: kavya
+2024-09-05 10:09:05 DEBUG [http-nio-8080-exec-3] c.e.H.controller.UserController - DEBUG: Attempting login with username: kavya
+2024-09-05 10:09:05 INFO  [http-nio-8080-exec-3] c.e.H.controller.UserController - INFO: Received login request for username: kavya
+2024-09-05 10:09:05 WARN  [http-nio-8080-exec-3] c.e.H.controller.UserController - WARN: Invalid login attempt for username: kavya
+2024-09-05 10:09:05 TRACE [http-nio-8080-exec-3] c.e.H.controller.UserController - TRACE: Exiting loginUser method with failure
+2024-09-05 10:09:05 TRACE [http-nio-8080-exec-10] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: kavya
+2024-09-05 10:09:05 DEBUG [http-nio-8080-exec-10] c.e.H.controller.UserController - DEBUG: Attempting login with username: kavya
+2024-09-05 10:09:05 INFO  [http-nio-8080-exec-10] c.e.H.controller.UserController - INFO: Received login request for username: kavya
+2024-09-05 10:09:05 WARN  [http-nio-8080-exec-10] c.e.H.controller.UserController - WARN: Invalid login attempt for username: kavya
+2024-09-05 10:09:05 TRACE [http-nio-8080-exec-10] c.e.H.controller.UserController - TRACE: Exiting loginUser method with failure
+2024-09-05 10:09:20 TRACE [http-nio-8080-exec-1] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: Kavya
+2024-09-05 10:09:20 DEBUG [http-nio-8080-exec-1] c.e.H.controller.UserController - DEBUG: Attempting login with username: Kavya
+2024-09-05 10:09:20 INFO  [http-nio-8080-exec-1] c.e.H.controller.UserController - INFO: Received login request for username: Kavya
+2024-09-05 10:09:20 INFO  [http-nio-8080-exec-1] c.e.H.controller.UserController - INFO: Login successful for username: Kavya
+2024-09-05 10:09:20 TRACE [http-nio-8080-exec-1] c.e.H.controller.UserController - TRACE: Exiting loginUser method
+2024-09-05 10:18:27 TRACE [http-nio-8080-exec-9] c.e.H.controller.UserController - TRACE: Entering createUser method
+2024-09-05 10:18:27 DEBUG [http-nio-8080-exec-9] c.e.H.controller.UserController - DEBUG: Creating user with details: User(userId=null, username=Happy, email=happy@gmail.com, password=happy123, role=User, bookings=null, feedbacks=null)
+2024-09-05 10:18:27 INFO  [http-nio-8080-exec-9] c.e.H.controller.UserController - INFO: Received request to create user
+2024-09-05 10:18:27 INFO  [http-nio-8080-exec-9] c.e.H.controller.UserController - INFO: User created successfully: User(userId=6, username=Happy, email=happy@gmail.com, password=happy123, role=User, bookings=null, feedbacks=null)
+2024-09-05 10:18:27 TRACE [http-nio-8080-exec-9] c.e.H.controller.UserController - TRACE: Exiting createUser method
+2024-09-05 10:34:10 TRACE [http-nio-8080-exec-5] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: Kavya
+2024-09-05 10:34:10 DEBUG [http-nio-8080-exec-5] c.e.H.controller.UserController - DEBUG: Attempting login with username: Kavya
+2024-09-05 10:34:10 INFO  [http-nio-8080-exec-5] c.e.H.controller.UserController - INFO: Received login request for username: Kavya
+2024-09-05 10:34:10 INFO  [http-nio-8080-exec-5] c.e.H.controller.UserController - INFO: Login successful for username: Kavya
+2024-09-05 10:34:10 TRACE [http-nio-8080-exec-5] c.e.H.controller.UserController - TRACE: Exiting loginUser method
+2024-09-05 10:34:15 TRACE [http-nio-8080-exec-3] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 10:34:15 DEBUG [http-nio-8080-exec-3] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 10:34:15 INFO  [http-nio-8080-exec-3] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 10:34:15 TRACE [http-nio-8080-exec-6] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:34:15 DEBUG [http-nio-8080-exec-6] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:34:15 INFO  [http-nio-8080-exec-6] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:34:15 TRACE [http-nio-8080-exec-6] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:34:15 TRACE [http-nio-8080-exec-3] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 5 feedbacks
+2024-09-05 10:34:15 TRACE [http-nio-8080-exec-10] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 10:34:15 DEBUG [http-nio-8080-exec-10] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 10:34:15 INFO  [http-nio-8080-exec-10] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 10:34:15 TRACE [http-nio-8080-exec-10] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 5 feedbacks
+2024-09-05 10:34:15 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:34:15 DEBUG [http-nio-8080-exec-2] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:34:15 INFO  [http-nio-8080-exec-2] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:34:15 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:35:29 TRACE [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - TRACE: Entering createFeedback method
+2024-09-05 10:35:29 DEBUG [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - DEBUG: Creating feedback for user ID: 1 and place ID: 2
+2024-09-05 10:35:29 INFO  [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - INFO: Received request to create feedback
+2024-09-05 10:35:29 INFO  [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - INFO: Feedback created with ID: 6
+2024-09-05 10:35:29 TRACE [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - TRACE: Exiting createFeedback method
+2024-09-05 10:35:31 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:35:31 TRACE [http-nio-8080-exec-5] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 10:35:31 DEBUG [http-nio-8080-exec-5] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 10:35:31 INFO  [http-nio-8080-exec-5] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 10:35:31 DEBUG [http-nio-8080-exec-8] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:35:31 INFO  [http-nio-8080-exec-8] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:35:31 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:35:31 TRACE [http-nio-8080-exec-5] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 6 feedbacks
+2024-09-05 10:35:31 TRACE [http-nio-8080-exec-3] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 10:35:31 DEBUG [http-nio-8080-exec-3] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 10:35:31 INFO  [http-nio-8080-exec-3] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 10:35:31 TRACE [http-nio-8080-exec-3] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 6 feedbacks
+2024-09-05 10:35:31 TRACE [http-nio-8080-exec-10] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:35:31 DEBUG [http-nio-8080-exec-10] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:35:31 INFO  [http-nio-8080-exec-10] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:35:31 TRACE [http-nio-8080-exec-10] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:36:05 TRACE [http-nio-8080-exec-1] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:36:05 DEBUG [http-nio-8080-exec-1] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:36:05 INFO  [http-nio-8080-exec-1] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:36:05 TRACE [http-nio-8080-exec-7] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 10:36:05 DEBUG [http-nio-8080-exec-7] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 10:36:05 INFO  [http-nio-8080-exec-7] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 10:36:05 TRACE [http-nio-8080-exec-7] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 6 feedbacks
+2024-09-05 10:36:05 TRACE [http-nio-8080-exec-1] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:36:06 TRACE [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - TRACE: Entering getAllFeedbacks method
+2024-09-05 10:36:06 DEBUG [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - DEBUG: Fetching all feedbacks from the database
+2024-09-05 10:36:06 INFO  [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - INFO: Received request to get all feedbacks
+2024-09-05 10:36:06 TRACE [http-nio-8080-exec-9] c.e.H.controller.FeedbackController - TRACE: Exiting getAllFeedbacks method with 6 feedbacks
+2024-09-05 10:36:06 TRACE [http-nio-8080-exec-5] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:36:06 DEBUG [http-nio-8080-exec-5] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:36:06 INFO  [http-nio-8080-exec-5] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:36:06 TRACE [http-nio-8080-exec-5] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:36:19 TRACE [http-nio-8080-exec-6] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: Bhavya
+2024-09-05 10:36:19 DEBUG [http-nio-8080-exec-6] c.e.H.controller.UserController - DEBUG: Attempting login with username: Bhavya
+2024-09-05 10:36:19 INFO  [http-nio-8080-exec-6] c.e.H.controller.UserController - INFO: Received login request for username: Bhavya
+2024-09-05 10:36:19 INFO  [http-nio-8080-exec-6] c.e.H.controller.UserController - INFO: Login successful for username: Bhavya
+2024-09-05 10:36:19 TRACE [http-nio-8080-exec-6] c.e.H.controller.UserController - TRACE: Exiting loginUser method
+2024-09-05 10:36:22 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:36:22 DEBUG [http-nio-8080-exec-2] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:36:22 INFO  [http-nio-8080-exec-2] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:36:22 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:36:22 TRACE [http-nio-8080-exec-4] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:36:22 DEBUG [http-nio-8080-exec-4] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:36:22 INFO  [http-nio-8080-exec-4] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:36:22 TRACE [http-nio-8080-exec-4] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 15 places
+2024-09-05 10:36:25 TRACE [http-nio-8080-exec-1] c.e.H.controller.PlaceController - TRACE: Entering createPlace method
+2024-09-05 10:36:25 DEBUG [http-nio-8080-exec-1] c.e.H.controller.PlaceController - DEBUG: Creating place with details: Place(placeId=null, name=, location=, description=, Tourist_Attractions=, bookings=null, feedbacks=null)
+2024-09-05 10:36:25 INFO  [http-nio-8080-exec-1] c.e.H.controller.PlaceController - INFO: Received request to create place
+2024-09-05 10:36:25 WARN  [http-nio-8080-exec-1] c.e.H.controller.PlaceController - WARN: Name cannot be null or empty
+2024-09-05 10:44:40 TRACE [http-nio-8080-exec-5] c.e.H.controller.PlaceController - TRACE: Entering createPlace method
+2024-09-05 10:44:40 DEBUG [http-nio-8080-exec-5] c.e.H.controller.PlaceController - DEBUG: Creating place with details: Place(placeId=null, name=Maine Plaza, location=Ooty, description=Beautiful place to stay and enjoy your vocation , Tourist_Attractions=Greenary places, parks, bookings=null, feedbacks=null)
+2024-09-05 10:44:40 INFO  [http-nio-8080-exec-5] c.e.H.controller.PlaceController - INFO: Received request to create place
+2024-09-05 10:44:40 INFO  [http-nio-8080-exec-5] c.e.H.controller.PlaceController - INFO: Place created successfully: Place(placeId=17, name=Maine Plaza, location=Ooty, description=Beautiful place to stay and enjoy your vocation , Tourist_Attractions=Greenary places, parks, bookings=null, feedbacks=null)
+2024-09-05 10:44:40 TRACE [http-nio-8080-exec-5] c.e.H.controller.PlaceController - TRACE: Exiting createPlace method
+2024-09-05 10:44:43 TRACE [http-nio-8080-exec-10] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:44:43 DEBUG [http-nio-8080-exec-10] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:44:43 INFO  [http-nio-8080-exec-10] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:44:43 TRACE [http-nio-8080-exec-10] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 10:44:43 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:44:43 DEBUG [http-nio-8080-exec-8] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:44:43 INFO  [http-nio-8080-exec-8] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:44:43 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 10:44:47 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Entering getPlaceById method with ID: 17
+2024-09-05 10:44:47 DEBUG [http-nio-8080-exec-2] c.e.H.controller.PlaceController - DEBUG: Fetching place with ID: 17
+2024-09-05 10:44:47 INFO  [http-nio-8080-exec-2] c.e.H.controller.PlaceController - INFO: Received request to get place by ID: 17
+2024-09-05 10:44:47 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Exiting getPlaceById method
+2024-09-05 10:44:47 TRACE [http-nio-8080-exec-4] c.e.H.controller.PlaceController - TRACE: Entering getPlaceById method with ID: 17
+2024-09-05 10:44:47 DEBUG [http-nio-8080-exec-4] c.e.H.controller.PlaceController - DEBUG: Fetching place with ID: 17
+2024-09-05 10:44:47 INFO  [http-nio-8080-exec-4] c.e.H.controller.PlaceController - INFO: Received request to get place by ID: 17
+2024-09-05 10:44:47 TRACE [http-nio-8080-exec-4] c.e.H.controller.PlaceController - TRACE: Exiting getPlaceById method
+2024-09-05 10:49:39 TRACE [http-nio-8080-exec-1] c.e.H.controller.PlaceController - TRACE: Entering getPlaceById method with ID: 17
+2024-09-05 10:49:39 DEBUG [http-nio-8080-exec-1] c.e.H.controller.PlaceController - DEBUG: Fetching place with ID: 17
+2024-09-05 10:49:39 INFO  [http-nio-8080-exec-1] c.e.H.controller.PlaceController - INFO: Received request to get place by ID: 17
+2024-09-05 10:49:39 TRACE [http-nio-8080-exec-1] c.e.H.controller.PlaceController - TRACE: Exiting getPlaceById method
+2024-09-05 10:49:39 TRACE [http-nio-8080-exec-9] c.e.H.controller.PlaceController - TRACE: Entering getPlaceById method with ID: 17
+2024-09-05 10:49:39 DEBUG [http-nio-8080-exec-9] c.e.H.controller.PlaceController - DEBUG: Fetching place with ID: 17
+2024-09-05 10:49:39 INFO  [http-nio-8080-exec-9] c.e.H.controller.PlaceController - INFO: Received request to get place by ID: 17
+2024-09-05 10:49:39 TRACE [http-nio-8080-exec-9] c.e.H.controller.PlaceController - TRACE: Exiting getPlaceById method
+2024-09-05 10:50:06 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Entering updatePlace method with ID: 17
+2024-09-05 10:50:06 DEBUG [http-nio-8080-exec-8] c.e.H.controller.PlaceController - DEBUG: Updating place with ID: 17
+2024-09-05 10:50:06 INFO  [http-nio-8080-exec-8] c.e.H.controller.PlaceController - INFO: Received request to update place with ID: 17
+2024-09-05 10:50:06 INFO  [http-nio-8080-exec-8] c.e.H.controller.PlaceController - INFO: Place updated successfully: Place(placeId=17, name=Maine Plaza, location=Ooty, description=Beautiful place to stay and enjoy your vocation , Tourist_Attractions=Greenary places, bookings=[], feedbacks=[])
+2024-09-05 10:50:06 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Exiting updatePlace method
+2024-09-05 10:50:08 TRACE [http-nio-8080-exec-3] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:50:08 DEBUG [http-nio-8080-exec-3] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:50:08 INFO  [http-nio-8080-exec-3] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:50:08 TRACE [http-nio-8080-exec-3] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 10:50:08 TRACE [http-nio-8080-exec-6] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 10:50:08 DEBUG [http-nio-8080-exec-6] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 10:50:08 INFO  [http-nio-8080-exec-6] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 10:50:08 TRACE [http-nio-8080-exec-6] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 11:00:27 TRACE [http-nio-8080-exec-7] c.e.H.controller.PlaceController - TRACE: Entering getPlaceById method with ID: 2
+2024-09-05 11:00:27 DEBUG [http-nio-8080-exec-7] c.e.H.controller.PlaceController - DEBUG: Fetching place with ID: 2
+2024-09-05 11:00:27 INFO  [http-nio-8080-exec-7] c.e.H.controller.PlaceController - INFO: Received request to get place by ID: 2
+2024-09-05 11:00:27 TRACE [http-nio-8080-exec-7] c.e.H.controller.PlaceController - TRACE: Exiting getPlaceById method
+2024-09-05 11:00:27 TRACE [http-nio-8080-exec-1] c.e.H.controller.PlaceController - TRACE: Entering getPlaceById method with ID: 2
+2024-09-05 11:00:27 DEBUG [http-nio-8080-exec-1] c.e.H.controller.PlaceController - DEBUG: Fetching place with ID: 2
+2024-09-05 11:00:27 INFO  [http-nio-8080-exec-1] c.e.H.controller.PlaceController - INFO: Received request to get place by ID: 2
+2024-09-05 11:00:27 TRACE [http-nio-8080-exec-1] c.e.H.controller.PlaceController - TRACE: Exiting getPlaceById method
+2024-09-05 11:06:28 TRACE [http-nio-8080-exec-5] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 11:06:28 DEBUG [http-nio-8080-exec-5] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 11:06:28 INFO  [http-nio-8080-exec-5] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 11:06:28 TRACE [http-nio-8080-exec-5] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 11:06:28 TRACE [http-nio-8080-exec-10] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 11:06:28 DEBUG [http-nio-8080-exec-10] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 11:06:28 INFO  [http-nio-8080-exec-10] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 11:06:28 TRACE [http-nio-8080-exec-10] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 11:06:29 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Entering getPlaceById method with ID: 17
+2024-09-05 11:06:29 DEBUG [http-nio-8080-exec-8] c.e.H.controller.PlaceController - DEBUG: Fetching place with ID: 17
+2024-09-05 11:06:29 INFO  [http-nio-8080-exec-8] c.e.H.controller.PlaceController - INFO: Received request to get place by ID: 17
+2024-09-05 11:06:29 TRACE [http-nio-8080-exec-8] c.e.H.controller.PlaceController - TRACE: Exiting getPlaceById method
+2024-09-05 11:06:29 TRACE [http-nio-8080-exec-3] c.e.H.controller.PlaceController - TRACE: Entering getPlaceById method with ID: 17
+2024-09-05 11:06:29 DEBUG [http-nio-8080-exec-3] c.e.H.controller.PlaceController - DEBUG: Fetching place with ID: 17
+2024-09-05 11:06:29 INFO  [http-nio-8080-exec-3] c.e.H.controller.PlaceController - INFO: Received request to get place by ID: 17
+2024-09-05 11:06:29 TRACE [http-nio-8080-exec-3] c.e.H.controller.PlaceController - TRACE: Exiting getPlaceById method
+2024-09-05 11:06:29 TRACE [http-nio-8080-exec-6] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 11:06:29 DEBUG [http-nio-8080-exec-6] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 11:06:29 INFO  [http-nio-8080-exec-6] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 11:06:29 TRACE [http-nio-8080-exec-6] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 11:06:29 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 11:06:29 DEBUG [http-nio-8080-exec-2] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 11:06:29 INFO  [http-nio-8080-exec-2] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 11:06:30 TRACE [http-nio-8080-exec-2] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 11:06:31 TRACE [http-nio-8080-exec-4] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 11:06:31 DEBUG [http-nio-8080-exec-4] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 11:06:31 INFO  [http-nio-8080-exec-4] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 11:06:31 TRACE [http-nio-8080-exec-4] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 11:06:31 TRACE [http-nio-8080-exec-7] c.e.H.controller.PlaceController - TRACE: Entering getAllPlaces method
+2024-09-05 11:06:31 DEBUG [http-nio-8080-exec-7] c.e.H.controller.PlaceController - DEBUG: Fetching all places from database
+2024-09-05 11:06:31 INFO  [http-nio-8080-exec-7] c.e.H.controller.PlaceController - INFO: Received request to get all places
+2024-09-05 11:06:31 TRACE [http-nio-8080-exec-7] c.e.H.controller.PlaceController - TRACE: Exiting getAllPlaces method with 16 places
+2024-09-05 11:06:35 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:06:35 DEBUG [http-nio-8080-exec-1] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:06:35 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:06:35 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:06:35 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:06:35 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:06:35 DEBUG [http-nio-8080-exec-9] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:06:35 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:06:35 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:06:35 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:06:36 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:06:36 DEBUG [http-nio-8080-exec-5] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:06:36 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:06:36 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:06:36 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:06:36 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:06:36 DEBUG [http-nio-8080-exec-10] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:06:36 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:06:36 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:06:36 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:09:32 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:09:32 DEBUG [http-nio-8080-exec-6] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:09:32 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:09:32 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:09:32 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:09:32 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:09:32 DEBUG [http-nio-8080-exec-2] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:09:32 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:09:32 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:09:32 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:10:12 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:10:12 DEBUG [http-nio-8080-exec-7] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:10:12 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:10:12 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:10:12 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:10:12 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:10:12 DEBUG [http-nio-8080-exec-1] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:10:12 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:10:12 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:10:12 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:10:17 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:10:17 DEBUG [http-nio-8080-exec-9] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:10:17 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:10:17 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:10:17 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:10:17 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:10:17 DEBUG [http-nio-8080-exec-5] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:10:17 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:10:17 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:10:17 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:10:19 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:10:19 DEBUG [http-nio-8080-exec-10] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:10:19 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:10:19 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:10:19 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:10:19 TRACE [http-nio-8080-exec-8] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:10:19 DEBUG [http-nio-8080-exec-8] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:10:19 INFO  [http-nio-8080-exec-8] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:10:19 INFO  [http-nio-8080-exec-8] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:10:19 TRACE [http-nio-8080-exec-8] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:10:26 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:10:26 DEBUG [http-nio-8080-exec-3] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:10:26 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:10:26 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:10:26 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:10:26 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:10:26 DEBUG [http-nio-8080-exec-6] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:10:26 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:10:26 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:10:26 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:11:48 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:11:48 DEBUG [http-nio-8080-exec-4] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:11:48 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:11:48 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:11:48 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:11:48 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:11:48 DEBUG [http-nio-8080-exec-7] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:11:48 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:11:48 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:11:48 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:11:50 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:11:50 DEBUG [http-nio-8080-exec-1] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:11:50 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:11:50 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:11:50 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:11:50 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:11:50 DEBUG [http-nio-8080-exec-9] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:11:50 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:11:50 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:11:50 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:14:03 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:14:03 DEBUG [http-nio-8080-exec-10] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:14:03 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:14:03 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:14:03 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:17:13 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:17:13 DEBUG [http-nio-8080-exec-3] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:17:13 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:17:13 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:17:13 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:17:13 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:17:13 DEBUG [http-nio-8080-exec-6] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:17:13 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:17:13 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:17:13 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:17:23 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:17:23 DEBUG [http-nio-8080-exec-2] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:17:23 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:17:23 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:17:23 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:17:23 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:17:23 DEBUG [http-nio-8080-exec-4] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:17:23 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:17:23 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:17:23 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:17:28 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:17:28 DEBUG [http-nio-8080-exec-7] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:17:28 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:17:28 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:17:28 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:17:28 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:17:28 DEBUG [http-nio-8080-exec-1] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:17:28 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:17:28 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:17:28 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:17:32 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:17:32 DEBUG [http-nio-8080-exec-9] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:17:32 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:17:32 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:17:32 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:17:32 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:17:32 DEBUG [http-nio-8080-exec-5] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:17:32 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:17:32 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:17:32 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:17:37 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:17:37 DEBUG [http-nio-8080-exec-10] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:17:37 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:17:37 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:17:37 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:17:37 TRACE [http-nio-8080-exec-8] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:17:37 DEBUG [http-nio-8080-exec-8] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:17:37 INFO  [http-nio-8080-exec-8] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:17:37 INFO  [http-nio-8080-exec-8] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:17:37 TRACE [http-nio-8080-exec-8] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:17:40 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:17:40 DEBUG [http-nio-8080-exec-3] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:17:40 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:17:40 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:17:40 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:17:40 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:17:40 DEBUG [http-nio-8080-exec-6] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:17:40 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:17:40 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:17:40 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:18:57 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:18:57 DEBUG [http-nio-8080-exec-4] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:18:57 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:18:57 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:18:57 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:18:57 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:18:57 DEBUG [http-nio-8080-exec-7] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:18:57 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:18:57 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:18:57 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:19:46 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:19:46 DEBUG [http-nio-8080-exec-9] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:19:46 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:19:46 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:19:46 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:19:46 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:19:46 DEBUG [http-nio-8080-exec-5] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:19:46 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:19:46 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:19:46 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:20:40 TRACE [http-nio-8080-exec-10] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: Kavya
+2024-09-05 11:20:40 DEBUG [http-nio-8080-exec-10] c.e.H.controller.UserController - DEBUG: Attempting login with username: Kavya
+2024-09-05 11:20:40 INFO  [http-nio-8080-exec-10] c.e.H.controller.UserController - INFO: Received login request for username: Kavya
+2024-09-05 11:20:40 INFO  [http-nio-8080-exec-10] c.e.H.controller.UserController - INFO: Login successful for username: Kavya
+2024-09-05 11:20:40 TRACE [http-nio-8080-exec-10] c.e.H.controller.UserController - TRACE: Exiting loginUser method
+2024-09-05 11:20:43 TRACE [http-nio-8080-exec-8] c.e.H.controller.UserController - TRACE: Entering getUserById method with ID: 1
+2024-09-05 11:20:43 DEBUG [http-nio-8080-exec-8] c.e.H.controller.UserController - DEBUG: Fetching user with ID: 1
+2024-09-05 11:20:43 INFO  [http-nio-8080-exec-8] c.e.H.controller.UserController - INFO: Received request to get user by ID: 1
+2024-09-05 11:20:43 TRACE [http-nio-8080-exec-8] c.e.H.controller.UserController - TRACE: Exiting getUserById method
+2024-09-05 11:20:44 TRACE [http-nio-8080-exec-3] c.e.H.controller.UserController - TRACE: Entering getUserById method with ID: 1
+2024-09-05 11:20:44 DEBUG [http-nio-8080-exec-3] c.e.H.controller.UserController - DEBUG: Fetching user with ID: 1
+2024-09-05 11:20:44 INFO  [http-nio-8080-exec-3] c.e.H.controller.UserController - INFO: Received request to get user by ID: 1
+2024-09-05 11:20:44 TRACE [http-nio-8080-exec-3] c.e.H.controller.UserController - TRACE: Exiting getUserById method
+2024-09-05 11:21:07 TRACE [http-nio-8080-exec-6] c.e.H.controller.UserController - TRACE: Entering getUserById method with ID: 1
+2024-09-05 11:21:07 DEBUG [http-nio-8080-exec-6] c.e.H.controller.UserController - DEBUG: Fetching user with ID: 1
+2024-09-05 11:21:07 INFO  [http-nio-8080-exec-6] c.e.H.controller.UserController - INFO: Received request to get user by ID: 1
+2024-09-05 11:21:07 TRACE [http-nio-8080-exec-6] c.e.H.controller.UserController - TRACE: Exiting getUserById method
+2024-09-05 11:21:07 TRACE [http-nio-8080-exec-2] c.e.H.controller.UserController - TRACE: Entering getUserById method with ID: 1
+2024-09-05 11:21:07 DEBUG [http-nio-8080-exec-2] c.e.H.controller.UserController - DEBUG: Fetching user with ID: 1
+2024-09-05 11:21:07 INFO  [http-nio-8080-exec-2] c.e.H.controller.UserController - INFO: Received request to get user by ID: 1
+2024-09-05 11:21:07 TRACE [http-nio-8080-exec-2] c.e.H.controller.UserController - TRACE: Exiting getUserById method
+2024-09-05 11:21:18 TRACE [http-nio-8080-exec-7] c.e.H.controller.UserController - TRACE: Entering updateUser method with ID: 1
+2024-09-05 11:21:18 DEBUG [http-nio-8080-exec-7] c.e.H.controller.UserController - DEBUG: Updating user with ID: 1
+2024-09-05 11:21:18 INFO  [http-nio-8080-exec-7] c.e.H.controller.UserController - INFO: Received request to update user with ID: 1
+2024-09-05 11:21:18 INFO  [http-nio-8080-exec-7] c.e.H.controller.UserController - INFO: User updated successfully: User(userId=1, username=Kavya, email=kavya@gmail.com, password=kavya123, role=User, bookings=[], feedbacks=[])
+2024-09-05 11:21:18 TRACE [http-nio-8080-exec-7] c.e.H.controller.UserController - TRACE: Exiting updateUser method
+2024-09-05 11:21:41 TRACE [http-nio-8080-exec-1] c.e.H.controller.UserController - TRACE: Entering getUserById method with ID: 1
+2024-09-05 11:21:41 DEBUG [http-nio-8080-exec-1] c.e.H.controller.UserController - DEBUG: Fetching user with ID: 1
+2024-09-05 11:21:41 INFO  [http-nio-8080-exec-1] c.e.H.controller.UserController - INFO: Received request to get user by ID: 1
+2024-09-05 11:21:41 TRACE [http-nio-8080-exec-1] c.e.H.controller.UserController - TRACE: Exiting getUserById method
+2024-09-05 11:21:41 TRACE [http-nio-8080-exec-9] c.e.H.controller.UserController - TRACE: Entering getUserById method with ID: 1
+2024-09-05 11:21:41 DEBUG [http-nio-8080-exec-9] c.e.H.controller.UserController - DEBUG: Fetching user with ID: 1
+2024-09-05 11:21:41 INFO  [http-nio-8080-exec-9] c.e.H.controller.UserController - INFO: Received request to get user by ID: 1
+2024-09-05 11:21:41 TRACE [http-nio-8080-exec-9] c.e.H.controller.UserController - TRACE: Exiting getUserById method
+2024-09-05 11:21:47 TRACE [http-nio-8080-exec-5] c.e.H.controller.UserController - TRACE: Entering updateUser method with ID: 1
+2024-09-05 11:21:47 DEBUG [http-nio-8080-exec-5] c.e.H.controller.UserController - DEBUG: Updating user with ID: 1
+2024-09-05 11:21:47 INFO  [http-nio-8080-exec-5] c.e.H.controller.UserController - INFO: Received request to update user with ID: 1
+2024-09-05 11:21:47 INFO  [http-nio-8080-exec-5] c.e.H.controller.UserController - INFO: User updated successfully: User(userId=1, username=KavyaBona, email=kavya@gmail.com, password=kavya123, role=User, bookings=[], feedbacks=[])
+2024-09-05 11:21:47 TRACE [http-nio-8080-exec-5] c.e.H.controller.UserController - TRACE: Exiting updateUser method
+2024-09-05 11:22:06 TRACE [http-nio-8080-exec-10] c.e.H.controller.UserController - TRACE: Entering getUserById method with ID: 1
+2024-09-05 11:22:06 DEBUG [http-nio-8080-exec-10] c.e.H.controller.UserController - DEBUG: Fetching user with ID: 1
+2024-09-05 11:22:06 INFO  [http-nio-8080-exec-10] c.e.H.controller.UserController - INFO: Received request to get user by ID: 1
+2024-09-05 11:22:06 TRACE [http-nio-8080-exec-10] c.e.H.controller.UserController - TRACE: Exiting getUserById method
+2024-09-05 11:22:06 TRACE [http-nio-8080-exec-8] c.e.H.controller.UserController - TRACE: Entering getUserById method with ID: 1
+2024-09-05 11:22:06 DEBUG [http-nio-8080-exec-8] c.e.H.controller.UserController - DEBUG: Fetching user with ID: 1
+2024-09-05 11:22:06 INFO  [http-nio-8080-exec-8] c.e.H.controller.UserController - INFO: Received request to get user by ID: 1
+2024-09-05 11:22:06 TRACE [http-nio-8080-exec-8] c.e.H.controller.UserController - TRACE: Exiting getUserById method
+2024-09-05 11:28:33 TRACE [http-nio-8080-exec-6] c.e.H.controller.UserController - TRACE: Entering loginUser method with username: Bhavya
+2024-09-05 11:28:33 DEBUG [http-nio-8080-exec-6] c.e.H.controller.UserController - DEBUG: Attempting login with username: Bhavya
+2024-09-05 11:28:33 INFO  [http-nio-8080-exec-6] c.e.H.controller.UserController - INFO: Received login request for username: Bhavya
+2024-09-05 11:28:33 INFO  [http-nio-8080-exec-6] c.e.H.controller.UserController - INFO: Login successful for username: Bhavya
+2024-09-05 11:28:33 TRACE [http-nio-8080-exec-6] c.e.H.controller.UserController - TRACE: Exiting loginUser method
+2024-09-05 11:28:39 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:28:39 DEBUG [http-nio-8080-exec-2] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:28:39 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:28:39 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:28:39 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:28:39 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:28:39 DEBUG [http-nio-8080-exec-4] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:28:39 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:28:39 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:28:39 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:28:40 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:28:40 DEBUG [http-nio-8080-exec-7] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:28:40 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:28:40 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:28:40 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:28:40 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:28:40 DEBUG [http-nio-8080-exec-1] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:28:40 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:28:40 INFO  [http-nio-8080-exec-1] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:28:40 TRACE [http-nio-8080-exec-1] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:28:47 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:28:47 DEBUG [http-nio-8080-exec-9] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:28:47 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:28:47 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:28:47 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:28:47 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:28:47 DEBUG [http-nio-8080-exec-5] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:28:47 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:28:47 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:28:47 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:31:58 TRACE [http-nio-8080-exec-8] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:31:58 DEBUG [http-nio-8080-exec-8] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:31:58 INFO  [http-nio-8080-exec-8] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:31:58 INFO  [http-nio-8080-exec-8] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:31:58 TRACE [http-nio-8080-exec-8] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:31:58 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:31:58 DEBUG [http-nio-8080-exec-3] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:31:58 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:31:58 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:31:58 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:32:04 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:32:04 DEBUG [http-nio-8080-exec-6] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:32:04 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:32:04 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:32:04 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:32:04 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:32:04 DEBUG [http-nio-8080-exec-2] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:32:04 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:32:04 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:32:04 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:32:08 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 5
+2024-09-05 11:32:08 DEBUG [http-nio-8080-exec-4] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 5
+2024-09-05 11:32:08 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 5
+2024-09-05 11:32:08 INFO  [http-nio-8080-exec-4] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 5
+2024-09-05 11:32:08 TRACE [http-nio-8080-exec-4] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:32:08 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 5
+2024-09-05 11:32:08 DEBUG [http-nio-8080-exec-7] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 5
+2024-09-05 11:32:08 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 5
+2024-09-05 11:32:08 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 5
+2024-09-05 11:32:08 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:33:40 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 5
+2024-09-05 11:33:40 DEBUG [http-nio-8080-exec-9] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 5
+2024-09-05 11:33:40 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 5
+2024-09-05 11:33:40 INFO  [http-nio-8080-exec-9] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 5
+2024-09-05 11:33:40 TRACE [http-nio-8080-exec-9] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:34:05 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:34:05 DEBUG [http-nio-8080-exec-5] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:34:05 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:34:05 INFO  [http-nio-8080-exec-5] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:34:05 TRACE [http-nio-8080-exec-5] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:34:05 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:34:05 DEBUG [http-nio-8080-exec-10] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:34:05 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:34:05 INFO  [http-nio-8080-exec-10] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:34:05 TRACE [http-nio-8080-exec-10] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:34:29 TRACE [http-nio-8080-exec-8] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:34:29 DEBUG [http-nio-8080-exec-8] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:34:29 INFO  [http-nio-8080-exec-8] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:34:29 INFO  [http-nio-8080-exec-8] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:34:29 TRACE [http-nio-8080-exec-8] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:34:29 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:34:29 DEBUG [http-nio-8080-exec-3] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:34:29 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:34:29 INFO  [http-nio-8080-exec-3] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:34:29 TRACE [http-nio-8080-exec-3] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
+2024-09-05 11:34:33 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:34:33 DEBUG [http-nio-8080-exec-6] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:34:33 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:34:33 INFO  [http-nio-8080-exec-6] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:34:33 TRACE [http-nio-8080-exec-6] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:34:33 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Entering getAllBookings method
+2024-09-05 11:34:33 DEBUG [http-nio-8080-exec-2] c.e.H.controller.BookingController - DEBUG: Fetching all bookings from the database
+2024-09-05 11:34:33 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Received request to get all bookings
+2024-09-05 11:34:33 INFO  [http-nio-8080-exec-2] c.e.H.controller.BookingController - INFO: Retrieved 5 bookings
+2024-09-05 11:34:33 TRACE [http-nio-8080-exec-2] c.e.H.controller.BookingController - TRACE: Exiting getAllBookings method
+2024-09-05 11:39:33 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Entering getBookingById method with ID: 1
+2024-09-05 11:39:33 DEBUG [http-nio-8080-exec-7] c.e.H.controller.BookingController - DEBUG: Fetching booking with ID: 1
+2024-09-05 11:39:33 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Received request to get booking by ID: 1
+2024-09-05 11:39:33 INFO  [http-nio-8080-exec-7] c.e.H.controller.BookingController - INFO: Retrieved booking with ID: 1
+2024-09-05 11:39:33 TRACE [http-nio-8080-exec-7] c.e.H.controller.BookingController - TRACE: Exiting getBookingById method
